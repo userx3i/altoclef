@@ -21,6 +21,10 @@ repositories {
         name = 'babbaj-repo'
         url = 'https://babbaj.github.io/maven/'
     }
+    maven {
+        name = 'dododuck1-repo'
+        url = 'https://dododuck1.github.io/maven/'
+    }
     flatDir {
         dirs '../baritone/dist'
     }
